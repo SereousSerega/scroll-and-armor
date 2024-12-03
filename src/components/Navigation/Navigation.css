@@ -1,0 +1,10 @@
+.navigation {
+    padding: 20px;
+    /* background-image: url(/public/images/sidebar_background.webp);
+    background-size: contain; */
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}

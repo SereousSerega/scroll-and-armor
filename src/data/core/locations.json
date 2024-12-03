@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "nameKey":"shop_goblin",
+        "image" : "/images/locations/shop_goblin.webp"
+    },
+    {
+        "id":2,
+        "nameKey":"city",
+        "image" : "/images/locations/city.webp"
+    },
+    {
+        "id":3,
+        "nameKey":"shop_tawern",
+        "image" : "/images/locations/tavern.webp"
+    },
+    {
+        "id":4,
+        "nameKey":"dungeon",
+        "image" : "/images/locations/dungeon.webp"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "image":"/images/items/potion_of_healing.webp",
+        "form":"potion",
+        "kind":"healing",
+        "nameKey":"potion_of_healing",
+        "price": 10,
+        "effects":["eff_healing"],
+        "abilities":[],
+        "manacost":1,
+        "rarity":"common",
+        "values": {
+            "heal":20
+        },
+        "merchants":["goblin"],
+        "lvl":0
+    },
+    {
+        "id":2,
+        "image":"/images/items/living_bones.webp",
+        "form":"spell",
+        "kind":"summon",
+        "nameKey":"living_bones",
+        "price": 30,
+        "effects":[],
+        "abilities":["abl_call_bonnie"],
+        "manacost":1,
+        "rarity":"rare",
+        "values": {
+            "count":1
+        },
+        "merchants":["goblin"],
+        "lvl":0
+    },
+    {
+        "id":3,
+        "image":"/images/items/poison_arrow.webp",
+        "form":"spell",
+        "kind":"attack",
+        "nameKey":"poison_arrow",
+        "price": 30,
+        "effects":[],
+        "abilities":["eff_poisoning"],
+        "manacost":2,
+        "rarity":"uncommon",
+        "values":{
+            "poison":5,
+            "turns":3
+        },
+        "merchants":["goblin"],
+        "lvl":0
+    }
+]

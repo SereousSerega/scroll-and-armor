@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Pirata One';
+    src: url('./assets/fonts/PirataOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('./assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype'),
+        url('./assets/fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    background: radial-gradient(circle at center, #48656D, #343444);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Pirata One', sans-serif;
+    margin: 0;
+}
+
+.paragraph {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}

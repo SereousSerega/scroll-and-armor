@@ -1,0 +1,54 @@
+{
+    "cards":{
+        "potion_of_healing": {
+        "en": {
+            "name": "Potion of healing",
+            "description": "Healing the character. add 20 HP"
+        },
+        "ua": {
+            "name": "Зілля зцілення",
+            "description": "Зцілення персонажа. додати 20 HP"
+        }
+    },
+    "living_bones": {
+        "en": {
+            "name": "Living bones",
+            "description": "A strange, creaky sack filled with enchanted bones that rattle ominously. When used, it summons a random skeleton companion—sometimes a brave knight, sometimes a confused farmer with a pitchfork. You never know if you’re getting a warrior or someone who just wants to find their missing femur. Handle with care; the bones tend to argue about who belongs to what!"
+        },
+        "ua": {
+            "name": "Живі кістки",
+            "description": "Дивний, скрипучий мішок, наповнений зачарованими кістками, які зловісно брязкають. При використанні він викликає випадкового напарника-скелета — іноді хороброго лицаря, іноді розгубленого фермера з вилами. Ви ніколи не знаєте, чи отримаєте ви воїна чи когось, хто просто хоче знайти свою зниклу стегнову кістку. Поводитися обережно; кістки схильні сперечатися про те, хто до чого належить!"
+        }
+    },
+    "poison_arrow": {
+        "en": {
+            "name": "test name",
+            "description": "test description"
+        },
+        "ua": {
+            "name": "test name",
+            "description": "test description"
+        }
+    },
+    "goblin_stinky": {
+        "en": {
+            "name": "test name",
+            "description": "test description"
+        },
+        "ua": {
+            "name": "test name",
+            "description": "test description"
+        }
+    },
+    "goblin_slob": {
+        "en": {
+            "name": "test name",
+            "description": "test description"
+        },
+        "ua": {
+            "name": "test name",
+            "description": "test description"
+        }
+    }
+    }
+}
