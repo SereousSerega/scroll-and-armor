@@ -12,10 +12,12 @@ import Card_item from '../Cards/Card_item/Card_item';
 function Shop() {
     const cardPool = useSelector((state) => state.goblinShop.cardPool);
     const cardCollection = useSelector((state) => state.goblinShop.cardCollection);
+    const balance = useSelector((state) => state.userPref.balance)
     const { shopKey } = useParams();
     const [animationKey, setAnimationKey] = useState(0);
     const dispatch = useDispatch();
     const [loading, setLoading] = useState(true)
+
 
     useEffect(() => {
         dispatch(setCardCollection(loadCardCollection()));
@@ -94,10 +96,10 @@ function Shop() {
             <div className='main shop'>
                 <div className='shopHead'>
                     <h2>Gobo`s Shop</h2>
-                    <div className='showCart'>
-                    Cart
-                        {/* <div className='simpBat'>Cart</div> */}
-                        <span className='cartCount'>1</span>
+
+                    <span>You have: <i>{balance}</i> Coins</span>
+
+                    <div className='showCart'>Cart<span className='cartCount'>1</span>
                     </div>
                 </div>
                 <div className='cards_container' style={{ backgroundImage: `url(/images/${shopKey}_background.webp)` }}>

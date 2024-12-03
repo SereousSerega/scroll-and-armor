@@ -5,12 +5,16 @@ const userPref_Slice = createSlice({
     initialState: {
         pref:{
             language:'en',
-        }
+        },
+        balance:200,
     },
     reducers: {
         setPref: (state, action) => {
             state.pref.language = action.payload;
         },
+        decreaseBalance: (state, action) => {
+            state.balance = state.balance - action.payload;
+        }
     },
 });
 

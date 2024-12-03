@@ -22,7 +22,7 @@
         "form":"spell",
         "kind":"summon",
         "nameKey":"living_bones",
-        "price": 30,
+        "price": 150,
         "effects":[],
         "abilities":["abl_call_bonnie"],
         "manacost":1,

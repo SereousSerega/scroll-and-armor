@@ -22,32 +22,32 @@
     },
     "poison_arrow": {
         "en": {
-            "name": "test name",
-            "description": "test description"
+            "name": "Poison arrow",
+            "description": "Why kill your enemy quickly when you can watch them squirm for hours?"
         },
         "ua": {
-            "name": "test name",
-            "description": "test description"
+            "name": "Отруйна стріла",
+            "description": "Навіщо швидко вбивати свого ворога, коли ти можеш годинами дивитися, як він звивається?"
         }
     },
     "goblin_stinky": {
         "en": {
-            "name": "test name",
-            "description": "test description"
+            "name": "Stinky",
+            "description": "You can smell him before you see him—and trust me, that's not an advantage"
         },
         "ua": {
-            "name": "test name",
-            "description": "test description"
+            "name": "Смердючий",
+            "description": "Ви можете відчути його запах, перш ніж побачити його — і, повірте мені, це не перевага"
         }
     },
     "goblin_slob": {
         "en": {
-            "name": "test name",
-            "description": "test description"
+            "name": "Slob",
+            "description": "Fighting is hard work. Eating during fighting? Now that’s multitasking"
         },
         "ua": {
-            "name": "test name",
-            "description": "test description"
+            "name": "Нечепура",
+            "description": "Боротьба - важка робота. Їсти під час бою? Тепер це багатозадачність"
         }
     }
     }
